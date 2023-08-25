@@ -11,7 +11,7 @@ from Tabs import home, data, predict
 
 # Configure the app
 st.set_page_config(
-    page_title = 'AQID',
+    page_title = 'EEG-Eye',
     page_icon = ':wind:',
     initial_sidebar_state = 'auto'
 )
