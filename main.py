@@ -32,11 +32,6 @@ st.sidebar.title("Navigation")
 # Create radio option to select the page
 page = st.sidebar.radio("Pages", list(Tabs.keys()))
 
-# Real time AQI measure
-st.sidebar.markdown(
-    f'<a href="https://aqual.netlify.app/" target="_blank" style="display: inline-block; padding: 12px 20px; background-color: #4CAF50; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;">Real-Time AQI Measure</a>',
-    unsafe_allow_html=True
-)
 
 # Loading the dataset.
 df, X, y = load_data()
