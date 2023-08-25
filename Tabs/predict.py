@@ -17,7 +17,7 @@ def app(df, X, y):
     st.markdown(
         """
             <p style="font-size:25px">
-                This app uses <b style="color:green">Random Forest Classifier</b> for the Prediction of AQI Level. However, unlike normal prediction systems, the AQI Level parameter is alone sufficient to predict the remedy. But we still suggest to work with the other parameters as well, for a better relativity.
+                This app uses <b style="color:green">Random Forest Classifier</b> for the Prediction of eye quality.
             </p>
         """, unsafe_allow_html=True)
     
