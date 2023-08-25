@@ -7,7 +7,7 @@ import streamlit as st
 from web_functions import load_data
 
 # Import pages
-from Tabs import home, data, predict, visualise
+from Tabs import home, data, predict
 
 # Configure the app
 st.set_page_config(
@@ -20,8 +20,8 @@ st.set_page_config(
 Tabs = {
     "Home": home,
     "Data Info": data,
-    "Prediction": predict,
-    "Visualisation": visualise
+    "Prediction": predict
+   
     
 }
 
@@ -42,7 +42,7 @@ st.sidebar.markdown(
 df, X, y = load_data()
 
 # Call the app funciton of selected page to run
-if page in ["Prediction", "Visualisation"]:
+if page in ["Prediction"]:
     Tabs[page].app(df, X, y)
 elif (page == "Data Info"):
     Tabs[page].app(df)
