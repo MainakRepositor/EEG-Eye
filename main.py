@@ -2,6 +2,7 @@
 
 # Importing the necessary Python modules.
 import streamlit as st
+import webbrowser
 
 # Import necessary functions from web_functions
 from web_functions import load_data
@@ -24,6 +25,10 @@ Tabs = {
    
     
 }
+
+url = "https://eyecare.streamlit.app/"
+st.sidebar.button('Eyecare Image'):
+    webbrowser.open_new_tab(url)    
 
 # Create a sidebar
 # Add title to sidear
