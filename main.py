@@ -27,7 +27,7 @@ Tabs = {
 }
 
 st.sidebar.markdown(
-    f'<a href="https://eyecare.streamlit.app/" target="_blank" style="display: inline-block; padding: 12px 20px; background-color: #4CAF50; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;">Real-Time AQI Measure</a>',
+    f'<a href="https://eyecare.streamlit.app/" target="_blank" style="display: inline-block; padding: 12px 20px; background-color: #4CAF50; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;">Eye Care Image</a>',
     unsafe_allow_html=True
 )
 
