@@ -56,7 +56,7 @@ def app(df, X, y):
         if (prediction == 0):
             st.success("The eye quality is good. 😎")
         elif (prediction == 1):
-            st.error("The eye needs some medical attention. 😵‍💫")
+            st.error("Possible chances of Glaucoma and vision related diabilities. Medical treatment recommended!😵‍💫")
            
 
         
